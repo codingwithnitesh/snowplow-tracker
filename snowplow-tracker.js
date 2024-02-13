@@ -2312,7 +2312,7 @@
             h(),
             a.add("refr", p(ea || Lb)),
             a.add("url", p(sb || Ba)),
-            a.add("title", document.title),
+            a.add("page", document.title),
             "none" != G && (I(g, ec, ha, b, m, T),
             E()),
             Ta = (new Date).getTime());
