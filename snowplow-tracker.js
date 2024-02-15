@@ -2312,7 +2312,7 @@
             h(),
             a.add("refr", p(ea || Lb)),
             a.add("url", p(sb || Ba)),
-            a.add("page", document.title),
+            a.add("page", (typeof utag.data.udo_backup.page.data.page_name !=='undefined') ? utag.data.udo_backup.page.data.page_name : null ),
             "none" != G && (I(g, ec, ha, b, m, T),
             E()),
             Ta = (new Date).getTime());
